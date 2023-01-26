@@ -6,17 +6,17 @@ int wiek = 40;
 
 if (plec == 'm')
 {
-    if (wiek > 50)
+    if (wiek > 30)
     {
-        Console.WriteLine("Mezczyzna powyzej 50 roku zycia");
+        Console.WriteLine("Mezczyzna powyzej 30 roku zycia");
     }
-    else if (wiek > 38 && imie == "Marcin")
+    else if (wiek > 40 && imie == "Marcin")
     {
-        Console.WriteLine("Facet! Po 40 robi sie goraco! ale nie boj nic... Marciny dadza rade :)");
+        Console.WriteLine("Marcin po 40 :)");
     }
-}
- else 
-{
-    Console.WriteLine("Inna osoba!");
-}
-   
+
+    else
+    {
+        Console.WriteLine("Inna osoba");
+    }
+}  
