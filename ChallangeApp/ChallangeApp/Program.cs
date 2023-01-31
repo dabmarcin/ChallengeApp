@@ -1,22 +1,19 @@
-﻿using System.Security.AccessControl;
+﻿int[] grades = new int[5];
+List<string> dayOfWeeks = new List<string>();
+dayOfWeeks.Add("poniedzialek");
+dayOfWeeks.Add("wtorek");
+dayOfWeeks.Add("sroda");
+dayOfWeeks.Add("czwartek");
+dayOfWeeks.Add("piatek");
+dayOfWeeks.Add("sobota");
+dayOfWeeks.Add("niedziela");
+//Console.WriteLine(dayOfWeeks[2]);
 
-string imie = "Marcin";
-char plec = 'm';
-int wiek = 40;
-
-if (plec == 'm')
+//string[] dayOfWeeks2 = { "poniedzialek", "wtorek", "sroda", "czwartek", "piatek", "sobota", "niedziela" };
+//Console.WriteLine(dayOfWeeks2[0]);
+//
+//for (var i = 0; i < dayOfWeeks.Count; i++)
+foreach (var day in dayOfWeeks)
 {
-    if (wiek > 30)
-    {
-        Console.WriteLine("Mezczyzna powyzej 30 roku zycia");
-    }
-    else if (wiek > 40 && imie == "Marcin")
-    {
-        Console.WriteLine("Marcin po 40 :)");
-    }
-
-    else
-    {
-        Console.WriteLine("Inna osoba");
-    }
-}  
+    Console.WriteLine(day);
+}
