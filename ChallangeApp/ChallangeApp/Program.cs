@@ -56,16 +56,15 @@ foreach (char znak in letters)
         counter9++;
     }
 }
-Console.WriteLine($"Skladowa liczby {number} to:");
-Console.WriteLine($"0 jest {counter0}");
-Console.WriteLine($"1 jest {counter1}");
-Console.WriteLine($"2 jest {counter2}");
-Console.WriteLine($"3 jest {counter3}");
-Console.WriteLine($"4 jest {counter4}");
-Console.WriteLine($"5 jest {counter5}");
-Console.WriteLine($"6 jest {counter6}");
-Console.WriteLine($"7 jest {counter7}");
-Console.WriteLine($"8 jest {counter8}");
-Console.WriteLine($"9 jest {counter9}");
+Console.WriteLine("Skladowa liczby  to:" + number);
+Console.WriteLine("0 jest "+ counter0);
+Console.WriteLine("1 jest "+ counter1);
+Console.WriteLine("2 jest "+ counter2);
+Console.WriteLine("3 jest "+ counter3);
+Console.WriteLine("4 jest "+ counter4);
+Console.WriteLine("5 jest "+ counter5);
+Console.WriteLine("6 jest "+ counter6);
+Console.WriteLine("7 jest "+ counter7);
+Console.WriteLine("8 jest "+ counter8);
+Console.WriteLine("9 jest "+ counter9);
 
-Console.WriteLine($"0 jest {counter0}");
